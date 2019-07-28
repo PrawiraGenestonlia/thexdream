@@ -18,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          A new website is in progress
+        </p>
       </header>
     </div>
   );
