@@ -1,0 +1,112 @@
+.errorpage {
+
+  body {
+    background-color: #26292E;
+    color: #2E2F30;
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    font-size: .6em;
+    color: #fff
+  }
+
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: #e74c3c;
+  }
+
+  .dialog {
+    float: right;
+    text-align: left;
+    width: 60%;
+    margin: 5% auto 0;
+  }
+
+  h1 {
+    font-size: 4em;
+    color: #fff;
+    line-height: 1em;
+  }
+
+  p {
+    font-size: 1.4em;
+    color: #fff;
+    padding-right: 5%;
+  }
+
+  .image {
+    position: absolute;
+    float: left;
+    top: 0;
+    width: 60%;
+  }
+
+  .back-to-home {
+
+    button {
+      background: rgb(37, 132, 255);
+      color: #fff;
+      border: none;
+      position: relative;
+      height: 60px;
+      font-size: 1.6em;
+      padding: 0 2em;
+      cursor: pointer;
+      transition: 800ms ease all;
+      outline: none;
+    }
+
+    button:hover {
+      background: #fff;
+      color: rgb(37, 132, 255);
+    }
+
+    button:before,
+    button:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 2px;
+      width: 0;
+      background: rgb(37, 132, 255);
+      transition: 400ms ease all;
+    }
+
+    button:after {
+      right: inherit;
+      top: inherit;
+      left: 0;
+      bottom: 0;
+    }
+
+    button:hover:before,
+    button:hover:after {
+      width: 100%;
+      transition: 800ms ease all;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .image {
+      width: 100%;
+      top: -50px;
+    }
+
+    .dialog {
+      float: none;
+      text-align: center;
+      width: 90%;
+      margin-top: 70%
+    }
+  }
+}
