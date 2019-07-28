@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './scss/index.scss';
-import TheXDreamApp from './TheXDreamApp';
+import TheXDreamApp from './TheXDreamApp.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<TheXDreamApp />, document.getElementById('root'));
