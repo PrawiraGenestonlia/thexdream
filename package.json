@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@owczar/dashboard-style--spin": "^0.1.18",
     "antd": "^3.20.7",
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
