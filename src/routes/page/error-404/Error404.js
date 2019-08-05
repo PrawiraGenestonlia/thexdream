@@ -1,7 +1,8 @@
 import React from 'react';
-import LightBulb from '../Assets/Images/light-bulb.png';
+import LightBulb from '../../../assets/images/light-bulb.png';
+import './Error404.scss';
 
-export default function ErrorPage() {
+export default function fourzerofour() {
   return (
     <div className="errorpage" style={{ backgroundColor: "black" }}>
       <body>
@@ -12,8 +13,8 @@ export default function ErrorPage() {
           <center>
             <div className="back-to-home" >
               <br></br>
-              <button onClick={() => { window.location.href = '/home' }}>
-                Go to homepage
+              <button onClick={() => { window.location.href = '/page/landing' }}>
+                Go to main
               </button>
             </div>
           </center>

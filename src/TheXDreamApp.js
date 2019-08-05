@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
-import HomePage from './Pages/HomePage';
-import ErrorPage from './Pages/404ErrorPage';
+import HomePage from './pages/HomePage';
+import ErrorPage from './pages/404ErrorPage';
 
 export default function TheXDreamApp() {
   return (
