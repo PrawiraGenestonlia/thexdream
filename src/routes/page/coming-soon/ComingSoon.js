@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './../../../assets/logo/TheXDreamLogo_DarkBGS.png';
+// import Logo from '/assets/logo/TheXDreamLogo_DarkBGS.png';
 import "./ComingSoon.scss";
 
 export default function HomePage() {
@@ -7,7 +7,7 @@ export default function HomePage() {
     <div className="homepage">
       <div className="screen1">
         <div className="logo-container">
-          <img className="logo-xdream" src={Logo} alt="TheXDream-logo" />
+          <img className="logo-xdream" src='/assets/logo/TheXDreamLogo_DarkBGS.png' alt="TheXDream-logo" />
         </div>
         <br />
         <br />
