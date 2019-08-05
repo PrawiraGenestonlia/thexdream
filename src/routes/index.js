@@ -17,7 +17,7 @@ export default function Routes() {
       <Switch>
         <Redirect exact from="/" to="/page/coming-soon" />
         {/*  */}
-        <Route exact path="/index.html" component={ComingSoon} />
+        {/* <Route exact path="/index.html" component={ComingSoon} /> */}
         {/*  */}
         <Route exact path="/page/landing" component={Landing} />
         <Route exact path="/page/error-404" component={Error404} />
@@ -25,7 +25,7 @@ export default function Routes() {
         {/*  */}
         <Route exact path="/apps/main" component={Main} />
         {/*  */}
-        <Redirect to="/pages/error-404" />
+        <Redirect to="/page/error-404" />
       </Switch>
     </Router>
   );
