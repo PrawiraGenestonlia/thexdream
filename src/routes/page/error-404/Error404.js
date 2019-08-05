@@ -1,5 +1,5 @@
 import React from 'react';
-import LightBulb from '../../../assets/images/light-bulb.png';
+import LightBulb from './../../../assets/images/light-bulb.png';
 import './Error404.scss';
 
 export default function fourzerofour() {

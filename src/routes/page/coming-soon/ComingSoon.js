@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../../assets/logo/TheXDreamLogo_DarkBGS.png';
+import Logo from './../../../assets/logo/TheXDreamLogo_DarkBGS.png';
 import "./ComingSoon.scss";
 
 export default function HomePage() {
